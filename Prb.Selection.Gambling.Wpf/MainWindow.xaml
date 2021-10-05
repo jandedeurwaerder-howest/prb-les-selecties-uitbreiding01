@@ -1,0 +1,16 @@
+﻿<Window x:Class="Prb.Selection.Gambling.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prb.Selection.Gambling.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox HorizontalContentAlignment="Center" FontSize="24" x:Name="txtGuess" HorizontalAlignment="Left" Height="34" Margin="46,22,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Button IsDefault="True" x:Name="btnGuess" Content="Gok" HorizontalAlignment="Left" Margin="261,24,0,0" VerticalAlignment="Top" Height="36" Width="111" Click="btnGuess_Click"/>
+        <Label x:Name="lblGuesses" Content="" Background="OldLace" HorizontalAlignment="Left" Height="226" Margin="47,71,0,0" VerticalAlignment="Top" Width="326"/>
+        <Button x:Name="btnRefresh" Content="Opnieuw" HorizontalAlignment="Left" Height="50" Margin="128,327,0,0" VerticalAlignment="Top" Width="161" Click="btnRefresh_Click"/>
+
+    </Grid>
+</Window>

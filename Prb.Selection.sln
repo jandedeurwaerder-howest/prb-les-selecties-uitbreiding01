@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prb.Selection.Wpf", "Prb.Selection.Wpf\Prb.Selection.Wpf.csproj", "{33098EE0-1AFA-4D14-8CE5-BCC189A25CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prb.Selection.Gambling.Wpf", "Prb.Selection.Gambling.Wpf\Prb.Selection.Gambling.Wpf.csproj", "{A036EB72-6C64-412E-A88C-EE622B2BB558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33098EE0-1AFA-4D14-8CE5-BCC189A25CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33098EE0-1AFA-4D14-8CE5-BCC189A25CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33098EE0-1AFA-4D14-8CE5-BCC189A25CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33098EE0-1AFA-4D14-8CE5-BCC189A25CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A036EB72-6C64-412E-A88C-EE622B2BB558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036EB72-6C64-412E-A88C-EE622B2BB558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A036EB72-6C64-412E-A88C-EE622B2BB558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036EB72-6C64-412E-A88C-EE622B2BB558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E330BE10-489D-46DD-8039-9FE481BBAC4B}
+	EndGlobalSection
+EndGlobal
